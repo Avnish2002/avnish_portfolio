@@ -34,7 +34,7 @@ function Contact() {
         }
 
         emailjs
-            .sendForm(serviceId, templateId, form.current, publicKey)
+            .sendForm(serviceId, templateId, form.current)
             .then(() => {
                 alert("Message sent successfully!");
                 form.current.reset();
@@ -119,6 +119,7 @@ function Contact() {
 
                     {/* Right Side Form */}
                     <form
+                        id="contact-form"
                         ref={form}
                         onSubmit={sendEmail}
                         className="bg-[#111] p-8 rounded-2xl border border-red-500/20"
