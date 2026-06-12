@@ -18,10 +18,10 @@ function Navbar() {
     <nav className="fixed w-full z-50 bg-black/80 backdrop-blur-md border-b border-red-500/20">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
 
-       <h1 className="text-3xl font-bold">
-  <span className="text-white">Avnish</span>
-  <span className="text-red-500"> Kumar</span>
-</h1>
+        <h1 className="text-3xl font-bold">
+          <span className="text-white">Avnish</span>
+          <span className="text-red-500"> Kumar</span>
+        </h1>
 
         <ul className="hidden md:flex gap-8">
           {navItems.map((item) => (
