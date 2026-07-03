@@ -12,7 +12,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <VideoIntro />
+      {/* <VideoIntro /> */}
       <About />
       <Skills />
       <Projects />
