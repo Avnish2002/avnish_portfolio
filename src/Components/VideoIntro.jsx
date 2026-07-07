@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import introVideo from "../assets/intro.mp4";
+import introVideo from "../assets/Intro.mp4";
 
 function VideoIntro() {
   return (
