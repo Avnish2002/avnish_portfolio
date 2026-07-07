@@ -1,6 +1,6 @@
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
-// import VideoIntro from "./Components/VideoIntro";
+import VideoIntro from "./Components/VideoIntro";
 import About from "./Components/About";
 import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
@@ -12,7 +12,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      {/* <VideoIntro /> */}
+    <VideoIntro /> 
       <About />
       <Skills />
       <Projects />
